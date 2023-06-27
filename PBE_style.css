@@ -1,5 +1,5 @@
 :root {  
-    --first: rgb(56, 119, 115);
+    --first: #387773;
 }
 *{
     padding: 0;
@@ -32,7 +32,7 @@ body{
   
   }
   .navbar .link ul li:hover{
-    background-color: #387773;
+    background-color: var(--first);
     
   }
   .navbar ul li a{
@@ -45,7 +45,7 @@ body{
 }
   .navbar .name i{
     font-size: 20px;
-    color:rgb(56, 119, 115) ;
+    color:var(--first) ;
   
   }
 .container_profil .photo{
@@ -60,12 +60,9 @@ body{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: var(--first);
 }
 .container_profil .photo .img img{
-  filter: grayscale(60%);
-  background-color: black;
-  border-radius: 40%;
+  border-radius: 20px;
 }
 .profil_nav{
     width: 100%;
@@ -91,7 +88,7 @@ body{
 .profil_desc h1{
     margin-bottom: 20px;
     font-size: 40px;
-    color: #387773;
+    color: var(--first);
 }
 .lottathing{
   width: 100%;
@@ -137,7 +134,7 @@ body{
 /* les deux bouton */
 
 .btn_exper{
-  border: 1px solid #387773;
+  border: 1px solid var(--first);
   opacity: 0;
   transform: translateX(-100px);
   transition: 1s;
@@ -151,7 +148,7 @@ body{
 
 }
 .btn_projet{
-  border: 1px solid #387773;
+  border: 1px solid var(--first);
   opacity: 0;
   transform: translateX(100px);
   transition: 1s;
@@ -208,8 +205,8 @@ body{
 .competence .grid_competence div{
   text-align: center;
   padding: 20px;
-  border: 1px solid #387773;
-  background:linear-gradient(rgb(33, 10, 10),#387773, #4ca59f); 
+  border: 1px solid var(--first);
+  background:linear-gradient(rgb(33, 10, 10), #387773 , #48a9a3 ); 
   border-radius: 20px;
   opacity: 0;
   transform: translateY(100px);
@@ -226,7 +223,7 @@ body{
     0 0 3px #fff,
     0 0 4px #fff,
     0 0 5px #fff,
-    0 0 10px rgb(116, 233, 194),
+    0 0 10px #42b7b0,
     0 0 15px #387773,
     0 0 20px #387773,
     0 0 25px #387773,
@@ -261,7 +258,7 @@ body{
   text-align: center;
 }
 .main_btn .englobe_bts h1 {
-  color: #387773;
+  color: var(--first);
 }
 .main_btn .englobe_bts .bts_grid{
   display: grid;

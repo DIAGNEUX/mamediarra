@@ -32,7 +32,7 @@ for (var i = 0; i < 1600; i++) {
 
   geometry.vertices.push(vertex);
 }
-var particles = new THREE.Points(geometry, new THREE.PointsMaterial({color: 387773, size: 2}));
+var particles = new THREE.Points(geometry, new THREE.PointsMaterial({color: 387773 , size: 2}));
 particles.boundingSphere = 50;
 
 
