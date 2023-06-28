@@ -119,6 +119,9 @@ main .englobe_img img{
     position: relative;
     
 }
+.grid_me .englobe_UI p{
+    text-align: center;
+}
 .grid_me .englobe_UI img{
     width: 100%;
     height: 100%;

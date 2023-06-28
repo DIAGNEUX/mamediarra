@@ -11,6 +11,7 @@
   
 body{
     background-color: black;
+    padding: 0 20px;
 }
 
 .navbar{
@@ -342,62 +343,104 @@ body{
   border: none;
   
 }
-.wrap_Ap1{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.wrap_Ap1 .Ap1 {
-  width: 80%;
-  
+
+.grid_ap1 a{
+  text-decoration: none;
 
 }
-.englobe_ap_img{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.grid_ap1 a:hover{
+  color: #387773;
 }
-.wrap_Ap1 .Ap1 img{
-  height: 150px;
+.grid_ap1 div img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+
 }
 .wrap_Ap1 .Ap1 h1 , .wrap_Api .Ap1 h3{
   text-align: center;
 }
-.englobe_grid_ap{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.englobe_grid_ap .grid_ap1{
-  display: grid;
-  grid-template-columns: repeat(3 , 300px);
-  gap: 20px;
-}
+
+
 .englobe_grid_ap .grid_ap1 div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 180px;
-  border-radius: 20px;
+  margin: 5px 0;
   cursor: pointer;
-  text-align: center;
   font-size: 30px;
-  border: 1px solid #387773;
-  background:linear-gradient(#387773, #4ca59f , rgb(33, 10, 10)) ;
+  border-bottom: 1px solid #387773;
+  border-left: 1px solid #387773;
+  
 }
 
-.englobe_grid_ap .grid_ap1 div:hover{
-  box-shadow:
-    0 0 3px #fff,
-    0 0 4px #fff,
-    0 0 5px #fff,
-    0 0 10px rgb(116, 233, 194),
-    0 0 15px #387773,
-    0 0 20px #387773,
-    0 0 25px #387773,
-    0 0 30px #387773
+
+
+/* Entreprise */
+
+.wrap_entreprise .stage1{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  border:  1px solid var(--first);
+  background: linear-gradient(rgb(33, 10, 10), #387773 , #48a9a3 );  ;
+
+}
+.wrap_entreprise a{
+  text-decoration: none;
+  text-align: center;
   
+}
+.wrap_entreprise .stage1 button{
+  margin: 10px 0;
+  padding: 8px 10px;
+  background-color: white;
+  color: var(--first);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+}
+.englobe_stage1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+.englobe_stage1 .stage_par , 
+.englobe_stage1 .stage_img
+{
+  width: 600px;
+  height: 400px;
+  position: relative;
+}
+.englobe_stage1 .stage_img img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.stage_center{
+  text-align: center;
+  margin: 10px 0;
+}
+.traveaux_realisé {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+
+
+}
+.wrap_done h1{
+  text-align: center;
+  margin: 10px 0
+
+}
+.traveaux_realisé div{
+  width:600px ;
+  height: 400px;
+  border: 1px solid var(--first);
 }
